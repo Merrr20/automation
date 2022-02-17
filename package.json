@@ -1,9 +1,15 @@
 {
+  "main": "index.js",
   "scripts": {
-    "cy": "cypress open"
+    "cy": "cypress open",
+    "cyr": "cypress run"
   },
   "dependencies": {
     "cypress": "^9.2.0",
     "cypress-real-events": "^1.6.0"
+  },
+  "devDependencies": {
+    "cypress-iframe": "^1.0.1",
+    "mochawesome": "^7.0.1"
   }
 }

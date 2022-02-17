@@ -1,3 +1,17 @@
 {
-    "blockHosts": 
-    ["*justuno*","*google-analytics*","*talkable*","*tabarnapp-ad*","aly.jst.ai","cms.analytics.yahoo.com"]}
+  "blockHosts": [
+    "*justuno*",
+    "*google-analytics*",
+    "*talkable*",
+    "*tabarnapp-ad*",
+    "aly.jst.ai",
+    "cms.analytics.yahoo.com"
+  ],
+  "defaultCommandTimeout": 100000,
+  "pageLoadTimeout": 30000,
+  "reporter": "mochawsome",
+  "env": {
+    "url": "https://www.rahulshettyacademy.com"
+  }
+
+}

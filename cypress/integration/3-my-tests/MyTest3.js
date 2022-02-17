@@ -5,7 +5,7 @@ describe('My Third Test Suite',function()
     it('My ThirdTest Case',function()
 {
 
-    cy.visit("https://rahulshettyacademy.com/seleniumPractise/#/")
+    cy.visit(Cypress.env('url')+"/seleniumPractise/#/")
     cy.wait(2000)
     cy.get('.search-keyword').type('ca')
 
